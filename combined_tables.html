@@ -1,0 +1,181 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Combined Tables</title>
+</head>
+<body>
+    <h2>Classifier Table</h2>
+    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Classifier</th>
+      <th>Content</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KNNs classifier</td>
+      <td><img src='KNNs classifier_boxplots.png'/></td>
+    </tr>
+    <tr>
+      <td>Gaussian based Naive Bayes classifier</td>
+      <td><img src='Gaussian based Naive Bayes classifier_boxplots.png'/></td>
+    </tr>
+    <tr>
+      <td>Decision Tree classifier</td>
+      <td><img src='Decision Tree classifier_boxplots.png'/></td>
+    </tr>
+    <tr>
+      <td>Gradient Boosting classifier</td>
+      <td><img src='Gradient Boosting classifier_boxplots.png'/></td>
+    </tr>
+    <tr>
+      <td>Random Forest classifier</td>
+      <td><img src='Random Forest classifier_boxplots.png'/></td>
+    </tr>
+    <tr>
+      <td>Neural Network classifier</td>
+      <td><img src='Neural Network classifier_boxplots.png'/></td>
+    </tr>
+    <tr>
+      <td>Logistic Regression classifier</td>
+      <td><img src='Logistic Regression classifier_boxplots.png'/></td>
+    </tr>
+  </tbody>
+</table>
+    <h2>Table 1 - the best mean value of the test errors</h2>
+    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Classifier</th>
+      <th>Steel Plates Fault</th>
+      <th>Ionosphere</th>
+      <th>Bank Note</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KNNs classifier</td>
+      <td>0.359918</td>
+      <td>0.118636</td>
+      <td>0.000204</td>
+    </tr>
+    <tr>
+      <td>Gaussian based Naive Bayes classifier</td>
+      <td>0.355201</td>
+      <td>0.111591</td>
+      <td>0.159971</td>
+    </tr>
+    <tr>
+      <td>Decision Tree classifier</td>
+      <td>0.000000</td>
+      <td>0.123864</td>
+      <td>0.022157</td>
+    </tr>
+    <tr>
+      <td>Gradient Boosting classifier</td>
+      <td>0.000000</td>
+      <td>0.081250</td>
+      <td>0.011137</td>
+    </tr>
+    <tr>
+      <td>Random Forest classifier</td>
+      <td>0.015304</td>
+      <td>0.071364</td>
+      <td>0.010321</td>
+    </tr>
+    <tr>
+      <td>Neural Network classifier</td>
+      <td>0.403275</td>
+      <td>0.094886</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <td>Logistic Regression classifier</td>
+      <td>0.359918</td>
+      <td>0.118636</td>
+      <td>0.000204</td>
+    </tr>
+  </tbody>
+</table>
+    <h2>Table 2 - the corresponding hyperparameter values for obtaining the best test errors</h2>
+    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Classifier</th>
+      <th>Steel Plates Fault</th>
+      <th>Ionosphere</th>
+      <th>Bank Note</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KNNs classifier</td>
+      <td>4.0</td>
+      <td>2.00000</td>
+      <td>2.0</td>
+    </tr>
+    <tr>
+      <td>Gaussian based Naive Bayes classifier</td>
+      <td>0.1</td>
+      <td>0.00000</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td>Decision Tree classifier</td>
+      <td>8.0</td>
+      <td>3.00000</td>
+      <td>10.0</td>
+    </tr>
+    <tr>
+      <td>Gradient Boosting classifier</td>
+      <td>1.0</td>
+      <td>3.00000</td>
+      <td>3.0</td>
+    </tr>
+    <tr>
+      <td>Random Forest classifier</td>
+      <td>10.0</td>
+      <td>10.00000</td>
+      <td>8.0</td>
+    </tr>
+    <tr>
+      <td>Neural Network classifier</td>
+      <td>10.0</td>
+      <td>0.00001</td>
+      <td>0.1</td>
+    </tr>
+    <tr>
+      <td>Logistic Regression classifier</td>
+      <td>2.0</td>
+      <td>0.50000</td>
+      <td>0.5</td>
+    </tr>
+  </tbody>
+</table>
+    <h2>Table 3 - the most suitable algorithms for 3 datasets</h2>
+    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>0</th>
+      <th>1</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Gradient Boosting and Decision Tree</td>
+      <td><img src='Logistic Regression classifier_line.png'/></td>
+    </tr>
+    <tr>
+      <td>Random Forest</td>
+      <td><img src='Logistic Regression classifier_line.png'/></td>
+    </tr>
+    <tr>
+      <td>Neural Network</td>
+      <td><img src='Logistic Regression classifier_line.png'/></td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>
